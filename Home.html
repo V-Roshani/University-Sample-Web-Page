@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="front.css">
+    <title>UNIVERSITY IN SRILANKA </title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">UNIVERSITY WEBSITE</h2>
+            <div class="toggle"></div>
+        </header>
+
+
+        <div class="text">
+            <h2>The OPEN UNIVERSITY IN SRILANKA - OUSL</h2>
+            <h4>(இலங்கை திறந்த பல்கலைக்கழகம்)</h4>
+            <h4>ශ්‍රී ලංකා විවෘත විශ්වවිද්‍යාලය</h4>
+            <P>The Open University of Sri Lanka (OUSL) is the premier Open and Distance learning institution in Sri Lanka where students can pursue their studies through Open and Distance Learning (ODL) methodologies. </P>
+              <h3>OUSL VOCABULARY</h3>
+            <p>Once become a student of the OUSL, student need to be familiar with the OUSL terminology. It is important that student understand these terms clearly and be vigilant of these, since most are related to student's performance in studies.
+
+                A Programme of study consists of a combination of compulsory and optional courses, which leads to a certificates, certificate of advanced study, diploma, degree or a postgraduate degree.</p>
+            <a href="#">Explore</a>
+        </div>
+    </section>
+      <div class="menu">
+          <ul>
+            <li><a href="Home.html">HOME</a> </li>
+            <li> <a href="Facilites.html">UNIVERSITY<br>FACULITIES</a></li>
+            <li> <a href="Contactus.html">CONTACT US</a></li>
+         </ul>
+        
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+    
+        menuToggle.addEventListener('click', () => {
+          menuToggle.classList.toggle('active');
+          showcase.classList.toggle('active');
+        })
+    
+           </script>
+     </body>
+</html>
